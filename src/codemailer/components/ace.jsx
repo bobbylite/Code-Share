@@ -59,7 +59,7 @@ class Ace extends React.Component {
     });
 
     state = {
-        code: `const onLoad = (editor) => {\n\tconsole.log("i've loaded");\n};`,
+        code: `const onLoad = (editor: string) => {\n\tconsole.log(editor.concat(" has loaded."));\n};`,
         isError: false,
         email: '',
         open: false,
