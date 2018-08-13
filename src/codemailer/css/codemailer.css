@@ -1,0 +1,7 @@
+.paper {
+    position: relative;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    transform: translateY(-.5%);
+}
